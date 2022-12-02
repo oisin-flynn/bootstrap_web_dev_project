@@ -113,7 +113,7 @@
   color: #262626;
   /*text-transform: uppercase;*/
   font-weight: bold;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 
 .service h5{
@@ -175,4 +175,44 @@
 .dropdown-item-service{
   color: #ccc;
   font-size: 1.5em;
+}
+
+.corporate{
+  padding: 50px;
+  background: #949494;
+}
+
+.corporate h4{
+  font-size: 2.0em;
+  color: #262626;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+}
+
+.corporate p{
+  padding-top: 50px;
+}
+
+.about{
+  padding: 50px;
+}
+
+.about h4{
+  font-size: 2.0em;
+  color: #262626;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+}
+
+.about p{
+  padding-top: 50px;
+}
+
+.copyright{
+  background: #262626;
+  padding: 50px;
+}
+
+.copyright h4{
+  color: #dcdde1;
 }
