@@ -124,8 +124,12 @@
   padding-top: 50px;
 }
 
-#service_col_2{
+#service_col_1{
   padding: 50px;
+}
+
+#service_col_2{
+  padding-top: 50px;
 }
 
 .map-container{
