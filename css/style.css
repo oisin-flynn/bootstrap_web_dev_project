@@ -151,3 +151,28 @@
   padding-top: 25px;
   color: #ccc;
 }
+
+.nav-item-service{
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+  padding-left: 50px;
+}
+
+.nav-link-service{
+  color: #949494 !important;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-link-service:hover{
+  background: #dcdde1 !important;
+  color: #262626 !important;
+  border-radius: 5px;
+  transition: all 0.6s ease 0s;
+}
+
+.dropdown-item-service{
+  color: #ccc;
+  font-size: 1.5em;
+}
