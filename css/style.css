@@ -10,6 +10,12 @@
   width: 100%;
 }
 
+#body{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
 .navbar{
   padding: 50px 0;
 }
@@ -93,4 +99,41 @@
 
 .dropdown-item{
   color: #ccc;
+}
+
+.service{
+  /*position: relative;*/
+  /*min-height: 100vh;*/
+  /*background-size: cover;*/
+  background: #ccc;
+}
+
+.service h4{
+  font-size: 2.0em;
+  color: #262626;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.service h5{
+  font-size: 1.5em;
+  color: #262626;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
